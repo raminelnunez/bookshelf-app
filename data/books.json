@@ -124,7 +124,7 @@
       "infoLink": "http://books.google.com/books?id=xlp6NE2NWecC&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Android.html?hl=&id=xlp6NE2NWecC",
       "id": "xlp6NE2NWecC",
-      "shelf": "none"
+      "shelf": "currentlyReading"
     },
     {
       "title": "Android Design Patterns",
@@ -172,7 +172,7 @@
       "infoLink": "https://play.google.com/store/books/details?id=Ifg1ZpSo7cwC&source=gbs_api",
       "canonicalVolumeLink": "https://market.android.com/details?id=book-Ifg1ZpSo7cwC",
       "id": "Ifg1ZpSo7cwC",
-      "shelf": "currentlyReading"
+      "shelf": "none"
     },
     {
       "title": "Android Apps Security",
@@ -297,7 +297,7 @@
       "infoLink": "http://books.google.com/books?id=H8tNBKmPO5UC&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Android_Fully_Loaded.html?hl=&id=H8tNBKmPO5UC",
       "id": "H8tNBKmPO5UC",
-      "shelf": "read"
+      "shelf": "none"
     },
     {
       "title": "AndEngine for Android Game Development Cookbook",
@@ -1532,7 +1532,8 @@
       "previewLink": "http://books.google.com/books?id=hSWK6Dh4wRgC&printsec=frontcover&dq=biography&hl=&cd=16&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=hSWK6Dh4wRgC&dq=biography&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Stalin.html?hl=&id=hSWK6Dh4wRgC",
-      "id": "hSWK6Dh4wRgC"
+      "id": "hSWK6Dh4wRgC",
+      "shelf": "currentlyReading"
     },
     {
       "title": "My First Life",
@@ -2303,7 +2304,8 @@
       "previewLink": "http://books.google.com/books?id=Ikva_afQXWMC&printsec=frontcover&dq=comics&hl=&cd=14&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=Ikva_afQXWMC&dq=comics&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/100_Sexiest_Women_in_Comics.html?hl=&id=Ikva_afQXWMC",
-      "id": "Ikva_afQXWMC"
+      "id": "Ikva_afQXWMC",
+      "shelf": "wantToRead"
     },
     {
       "title": "The System of Comics",
@@ -12734,7 +12736,8 @@
       "previewLink": "http://books.google.com/books?id=7n2gw9MbTMUC&printsec=frontcover&dq=robotics&hl=&cd=1&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=7n2gw9MbTMUC&dq=robotics&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Robotics.html?hl=&id=7n2gw9MbTMUC",
-      "id": "7n2gw9MbTMUC"
+      "id": "7n2gw9MbTMUC",
+      "shelf": "read"
     },
     {
       "title": "The Robotics Primer",
@@ -13404,7 +13407,8 @@
       "previewLink": "http://books.google.com/books?id=dT5s-Xb2N6MC&printsec=frontcover&dq=robotics&hl=&cd=17&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=dT5s-Xb2N6MC&dq=robotics&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Robotics.html?hl=&id=dT5s-Xb2N6MC",
-      "id": "dT5s-Xb2N6MC"
+      "id": "dT5s-Xb2N6MC",
+      "shelf": "read"
     },
     {
       "title": "Grasping in Robotics",
@@ -15487,7 +15491,8 @@
       "previewLink": "http://books.google.com/books?id=cJB-XlybhDkC&printsec=frontcover&dq=ultimate&hl=&cd=8&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=cJB-XlybhDkC&dq=ultimate&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Ultimate_Weird_But_True.html?hl=&id=cJB-XlybhDkC",
-      "id": "cJB-XlybhDkC"
+      "id": "cJB-XlybhDkC",
+      "shelf": "wantToRead"
     },
     {
       "title": "Ultimate Bread",
@@ -15530,7 +15535,8 @@
       "previewLink": "http://books.google.com/books?id=gRdxNCiFevUC&printsec=frontcover&dq=ultimate&hl=&cd=9&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=gRdxNCiFevUC&dq=ultimate&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Ultimate_Bread.html?hl=&id=gRdxNCiFevUC",
-      "id": "gRdxNCiFevUC"
+      "id": "gRdxNCiFevUC",
+      "shelf": "wantToRead"
     },
     {
       "title": "The Ultimate Basket Book",
@@ -16002,7 +16008,8 @@
       "previewLink": "http://books.google.com/books?id=GIXhVWC_BMoC&printsec=frontcover&dq=ultimate&hl=&cd=20&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=GIXhVWC_BMoC&source=gbs_api",
       "canonicalVolumeLink": "https://market.android.com/details?id=book-GIXhVWC_BMoC",
-      "id": "GIXhVWC_BMoC"
+      "id": "GIXhVWC_BMoC",
+      "shelf": "currentlyReading"
     },
     {
       "title": "Learning Virtual Reality",

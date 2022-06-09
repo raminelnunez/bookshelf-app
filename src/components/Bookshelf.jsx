@@ -1,21 +1,24 @@
 import Book from "./Book";
 
-const Bookshelf = ({title, books, updateBook}) => {
+const BookShelf = ({title, books, updateBook}) => {
 
-  return (
-    <div className="bookshelf">
+  try {
+    return (
+      <div className="bookshelf">
       <h2 className="bookshelf-title">{title}</h2>
-      <div className="bookshelf-books">
-        <ol className="books-grid">
-          {books.map(book => {
-            <li>
-              <Book props={book} updateBook={updateBook}/>
-            </li>
-          })}
-        </ol>
+        <div className="bookshelf-books">
+          <ol className="books-grid">
+            {books.map((book) => 
+              <li>
+                <Book props={book} updateBook={updateBook}/>
+              </li>
+            )}
+          </ol>
+        </div>
       </div>
-    </div>
-  );
+    );
+  } catch {
+  }
 }
 
-export default Bookshelf
+export default BookShelf

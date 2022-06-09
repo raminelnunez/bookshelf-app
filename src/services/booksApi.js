@@ -1,5 +1,5 @@
 export const updateBookShelf = async (id, shelf) => {
-  const response = await fetch(`http://localhost:3000/books/${id}`, {
+  const response = await fetch(`http://localhost:3010/books/${id}`, {
     method: 'PATCH',
     headers: {
       'Content-Type': 'application/json',
@@ -22,6 +22,5 @@ export const getBooksByShelf = async (shelf) => {
   const request = await fetch(`http://localhost:3010/books?shelf=${shelf}`);
   const response = await request.json();
   const result = await response;
-  console.log(await result)
-  return result;
+  return await result;
 };

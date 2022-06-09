@@ -10,7 +10,7 @@ const SearchBar = ({handleSearchBooks}) => {
 
   return (
     <div className="search-books-bar">
-      <a className="close-search" href="index.html">Close</a>
+      <a className="close-search" href="/">Close</a>
       <div className="search-books-input-wrapper">
         <input onChange={handleChange} type="text" placeholder="Search by title or author" value={searchValue}/>
       </div>
