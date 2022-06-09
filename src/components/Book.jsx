@@ -1,14 +1,16 @@
-const Book = ({props, select}) => {
-  const handleChange = () => {
-
-  }
+const Book = ({props, updateBook}) => {
   try {
-    const {title, authors, imageLinks} = props;
+    const {id, title, authors, imageLinks} = props;
     const BookStyle = {
       width: "128px",
       height: "193px",
       backgroundImage: `url(${imageLinks.thumbnail})`
     }
+
+    const handleChange = (event) => {
+      updateBook(id, event.target.value);
+    }
+
     return (
       <div className="book">
       <div className="book-top">

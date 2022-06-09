@@ -1,6 +1,6 @@
 import Book from "./Book";
 
-const Bookshelf = ({title, books}) => {
+const Bookshelf = ({title, books, updateBook}) => {
 
   return (
     <div className="bookshelf">
@@ -9,7 +9,7 @@ const Bookshelf = ({title, books}) => {
         <ol className="books-grid">
           {books.map(book => {
             <li>
-              <Book/>
+              <Book props={book} updateBook={updateBook}/>
             </li>
           })}
         </ol>

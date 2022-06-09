@@ -1,6 +1,6 @@
 import Book from "./Book";
 
-const SearchResults = ({results}) => {
+const SearchResults = ({results, updateBook}) => {
   try {
   return (
     <div className="search-books-results">
@@ -8,7 +8,7 @@ const SearchResults = ({results}) => {
       <ol className="books-grid">
         {results.map((result) =>
           <li>
-            <Book props={result}/>
+            <Book props={result} updateBook={updateBook}/>
           </li>
         )}
       </ol>
