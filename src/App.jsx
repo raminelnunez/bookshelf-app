@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Book from './components/Book';
 import BookShelf from './components/BookShelf';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import { updateBookShelf, searchBooks, getBooksByShelf } from './services/booksApi';
+import { updateBookShelf, searchBooks, getBooksByShelf, getBooks } from './services/booksApi';
 import { Link } from 'react-router-dom';
 import SearchBar from './components/SearchBar';
 import SearchResults from './components/SearchResults';
@@ -31,15 +31,12 @@ function App() {
     const Shelf = await getBooksByShelf(shelf);
     return await Shelf;
   }
-
+  
   const handleBookShelf = async () => {
-    const newCurrentlyReading = await handleGetBooksByShelf("currentlyReading");
-    const newWantToRead = await handleGetBooksByShelf("wantToRead");
-    const newRead = await handleGetBooksByShelf("read");
-
-    setCurrentlyReading(await newCurrentlyReading);
-    setWantToRead(await newWantToRead);
-    setRead(await newRead);
+    const books = await getBooks();
+    setCurrentlyReading(await books.filter(book => book.shelf === "currentlyReading"))
+    setWantToRead(await books.filter(book => book.shelf === "wantToRead"))
+    setRead(await books.filter(book => book.shelf === "read"))
   }
 
   if (handledBookShelf === false) {

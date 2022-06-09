@@ -82,7 +82,8 @@
       "previewLink": "http://books.google.com/books?id=tsRhkvo80iUC&q=android&dq=android&hl=&cd=2&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=tsRhkvo80iUC&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/The_Android_Invasion.html?hl=&id=tsRhkvo80iUC",
-      "id": "tsRhkvo80iUC"
+      "id": "tsRhkvo80iUC",
+      "shelf": "wantToRead"
     },
     {
       "title": "Android",
@@ -124,7 +125,7 @@
       "infoLink": "http://books.google.com/books?id=xlp6NE2NWecC&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Android.html?hl=&id=xlp6NE2NWecC",
       "id": "xlp6NE2NWecC",
-      "shelf": "currentlyReading"
+      "shelf": "wantToRead"
     },
     {
       "title": "Android Design Patterns",
@@ -2305,7 +2306,7 @@
       "infoLink": "http://books.google.com/books?id=Ikva_afQXWMC&dq=comics&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/100_Sexiest_Women_in_Comics.html?hl=&id=Ikva_afQXWMC",
       "id": "Ikva_afQXWMC",
-      "shelf": "wantToRead"
+      "shelf": "read"
     },
     {
       "title": "The System of Comics",
@@ -12737,7 +12738,7 @@
       "infoLink": "http://books.google.com/books?id=7n2gw9MbTMUC&dq=robotics&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Robotics.html?hl=&id=7n2gw9MbTMUC",
       "id": "7n2gw9MbTMUC",
-      "shelf": "read"
+      "shelf": "wantToRead"
     },
     {
       "title": "The Robotics Primer",
@@ -12913,7 +12914,8 @@
       "previewLink": "http://books.google.com/books?id=jPCAFmE-logC&printsec=frontcover&dq=robotics&hl=&cd=5&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=jPCAFmE-logC&dq=robotics&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Robotics.html?hl=&id=jPCAFmE-logC",
-      "id": "jPCAFmE-logC"
+      "id": "jPCAFmE-logC",
+      "shelf": "wantToRead"
     },
     {
       "title": "Springer Handbook of Robotics",
@@ -13365,7 +13367,8 @@
       "previewLink": "http://books.google.com/books?id=AJuowQmtbU4C&printsec=frontcover&dq=robotics&hl=&cd=16&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=AJuowQmtbU4C&dq=robotics&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Wired_for_War.html?hl=&id=AJuowQmtbU4C",
-      "id": "AJuowQmtbU4C"
+      "id": "AJuowQmtbU4C",
+      "shelf": "wantToRead"
     },
     {
       "title": "Robotics",
@@ -13408,7 +13411,7 @@
       "infoLink": "http://books.google.com/books?id=dT5s-Xb2N6MC&dq=robotics&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Robotics.html?hl=&id=dT5s-Xb2N6MC",
       "id": "dT5s-Xb2N6MC",
-      "shelf": "read"
+      "shelf": "none"
     },
     {
       "title": "Grasping in Robotics",
@@ -15492,7 +15495,7 @@
       "infoLink": "http://books.google.com/books?id=cJB-XlybhDkC&dq=ultimate&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Ultimate_Weird_But_True.html?hl=&id=cJB-XlybhDkC",
       "id": "cJB-XlybhDkC",
-      "shelf": "wantToRead"
+      "shelf": "read"
     },
     {
       "title": "Ultimate Bread",
@@ -15536,7 +15539,7 @@
       "infoLink": "http://books.google.com/books?id=gRdxNCiFevUC&dq=ultimate&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Ultimate_Bread.html?hl=&id=gRdxNCiFevUC",
       "id": "gRdxNCiFevUC",
-      "shelf": "wantToRead"
+      "shelf": "read"
     },
     {
       "title": "The Ultimate Basket Book",

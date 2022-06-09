@@ -24,3 +24,11 @@ export const getBooksByShelf = async (shelf) => {
   const result = await response;
   return await result;
 };
+
+export const getBooks = async () => {
+  const request = await fetch(`http://localhost:3010/books/`);
+  const response = await request.json();
+  const result = await response;
+  return await result;
+};
+
